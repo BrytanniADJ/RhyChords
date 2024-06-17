@@ -12,21 +12,45 @@
     <body>
         <header class="index">
             <div class="index">
-                <img src="./assets/images/wave-sound-es.png" alt="Logo de RhyChords">
+                <img id="img_logo" src="./assets/images/wave-sound-es.png" alt="Logo de RhyChords" title="RhyChords">
                 <h1 class="rhy" title="RhyChords">Rhy</h1>
-                <h1 title="RhyChords">Chords</h1>
+                <h1 title="RhyChords" class="chords">Chords</h1>
             </div>
-            <div class="">
-
-            </div>
-            <button class="menu" onclick="menu_button()">
-                <img src="./assets/images/menu-es.png" alt="Menu">
+            <button title="Menu" class="menu" onclick="menu_button()">
+                <img src="./assets/images/menu-es.png" alt="Menu" id="img_menu">
             </button>
         </header>
 
-        <section class="menu" id="menu_ap">
-
+        <section class="menu_ap" id="menu">
+            <h2>M E N U</h2>
+            <div class="modo">
+                <h3 id="h3_txt">Modo Claro</h3>
+                <button title="Modo Escuro" class="modos" onclick="modos()">
+                    <img src="./assets/images/sun.png" alt="modo-es" id="img_modo"> <!-- Inicialmente modo escuro -->
+                </button>
+            </div>
+            <div class="skip">
+                <a href="#inicio"><button>Início</button></a>
+                <a href=""></a><button>button 1</button>
+                <a href=""></a><button>button 1</button>
+                <a href=""></a><button>button 1</button> <!-- Resolver o problema -->
+                <a href=""></a><button>button 1</button>
+                <a href=""></a><button>button 1</button>
+                <a href=""></a><button>button 1</button>
+            </div>
         </section>
+
+        <main>
+            <div id="inicio">
+                <img src="./assets/images/wallpaper-music-2.jpg" alt="">
+            </div>
+        </main>
+
+        <footer>
+            <div></div>
+            <div></div>
+            <div></div>
+        </footer>
         <script src="./assets/js/script.js"></script>
     </body>
 </html>
