@@ -281,3 +281,52 @@ section.lanca{
         margin-bottom: 15px;
     }
 }
+
+section.melhor{
+    h1{
+        padding-top: 5%;
+        padding-bottom: 2%;
+    }
+    div.lados{
+        display: inline;
+        div.collum{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 50px;
+            div{
+                align-items: center;
+                text-align: center;
+                display: inline;
+                border-color: var(--gris50);
+                border-width: 1px;
+                border-style: solid;
+                border-radius: 5%;
+                margin: 0px 10px;
+                padding: 1% 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                img{
+                    width: 70%;
+                    border-radius: 15%;
+                }
+                h4{
+                    font-size: 20px;
+                    margin: 5px 0px;
+                    color: var(--gris-txt);
+                }
+                h5{
+                    font-size: 15px;
+                    line-height: 20px;
+                    margin-bottom: 20px;
+                }
+                h6{
+                    margin-bottom: 10px;
+                }
+                a{
+                    text-decoration: none;
+                    color: var(--cor_padrao_es);
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}
