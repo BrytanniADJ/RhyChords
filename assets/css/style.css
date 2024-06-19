@@ -77,7 +77,7 @@ main{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100%;
-    padding-bottom: 1000px;
+    padding-bottom: 100px;
 }
 
 main section#menu{
@@ -168,7 +168,7 @@ section.main{
 
 section.main,
 section.sobre,
-section.melhores,
+section.melhor,
 section.mais_baixados,
 section.lancamentos,
 section.baixar{
@@ -186,7 +186,8 @@ section.sobre div h2{
 }
 
 section.main div h1,
-section.sobre div h1{
+section.sobre div h1,
+section.melhor h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-size: 30px;
@@ -221,5 +222,61 @@ section.sobre{
             margin-left: 20%;
             margin-right: 30px;
         }
+    }
+}
+
+section.melhor{
+    background-color: var(--rgba-color);
+    h1{
+        padding-top: 5%;
+    }
+    div{
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: space-between;
+        div.melhor-1,
+        div.melhor-2,
+        div.melhor-3,
+        div.melhor-4,
+        div.melhor-5{
+            align-items: center;
+            text-align: center;
+            display: inline;
+            border-color: var(--gris50);
+            border-width: 1px;
+            border-style: solid;
+            border-radius: 10%;
+            margin: 0px 10px;
+            padding: 2% 0px;
+        }
+        div{
+            img.capas-inter{
+                width: 70%;
+                border-radius: 15%;
+            }
+            h4{
+                font-size: 20px;
+                margin: 5px 0px;
+                color: var(--gris-txt);
+            }
+            h5{
+                font-size: 15px;
+                line-height: 20px;
+                margin-bottom: 20px;
+            }
+            h6{
+                margin-bottom: 10px;
+            }
+            a{
+                text-decoration: none;
+                color: var(--cor_padrao_es);
+                font-size: 20px;
+            }
+        }
+    }
+    h3{
+        margin-top: 40px;
+        margin-left: 15px;
+        margin-bottom: 15px;
     }
 }
