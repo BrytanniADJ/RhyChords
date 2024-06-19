@@ -37,10 +37,12 @@ function modos(){
         document.documentElement.style.setProperty('--gris65','#e0e0e0');
         document.documentElement.style.setProperty('--gris50','#c7c7c7');
         document.documentElement.style.setProperty('--gris-txt','#0f0f0f');
+        document.documentElement.style.setProperty('--rgba-color','rgba(255, 255, 255, 50%)');
         logo.src = 'assets/images/wave-sound-cl.png';
         menu.src = 'assets/images/menu-cl.png'; //menu, mudar símbolo
         modo.src = 'assets/images/moon.png';
         h3.textContent = 'Modo Escuro';
+        document.documentElement.style.setProperty('--url-img', 'url(../images/wall-cl.png)');
     }else{ // Modo Escuro
         document.documentElement.style.setProperty('--cor40-es','#7fe774');
         document.documentElement.style.setProperty('--cor_padrao_es','#2dc500');
@@ -52,9 +54,11 @@ function modos(){
         document.documentElement.style.setProperty('--gris65','#333333');
         document.documentElement.style.setProperty('--gris50','#555555');
         document.documentElement.style.setProperty('--gris-txt','#e6e6e6');
+        document.documentElement.style.setProperty('--rgba-color','rgba(0, 0, 0, 50%)');
         logo.src = 'assets/images/wave-sound-es.png';
         menu.src = 'assets/images/menu-es.png'; //menu, mudar símbolo
         modo.src = 'assets/images/sun.png';
         h3.textContent = 'Modo Claro';
+        document.documentElement.style.setProperty('--url-img', 'url(../images/wall-es.png)');
     }
 }
