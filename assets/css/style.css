@@ -168,7 +168,7 @@ section.main{
 
 section.main,
 section.sobre,
-section.melhor,
+section.lanca,
 section.mais_baixados,
 section.lancamentos,
 section.baixar{
@@ -187,6 +187,7 @@ section.sobre div h2{
 
 section.main div h1,
 section.sobre div h1,
+section.lanca h1,
 section.melhor h1{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -225,7 +226,7 @@ section.sobre{
     }
 }
 
-section.melhor{
+section.lanca{
     background-color: var(--rgba-color);
     h1{
         padding-top: 5%;
@@ -234,18 +235,18 @@ section.melhor{
         font-family: Arial, Helvetica, sans-serif;
         display: flex;
         justify-content: space-between;
-        div.melhor-1,
-        div.melhor-2,
-        div.melhor-3,
-        div.melhor-4,
-        div.melhor-5{
+        div.lanca-1,
+        div.lanca-2,
+        div.lanca-3,
+        div.lanca-4,
+        div.lanca-5{
             align-items: center;
             text-align: center;
             display: inline;
             border-color: var(--gris50);
             border-width: 1px;
             border-style: solid;
-            border-radius: 10%;
+            border-radius: 5%;
             margin: 0px 10px;
             padding: 2% 0px;
         }
