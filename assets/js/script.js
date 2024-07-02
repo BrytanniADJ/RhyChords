@@ -1,14 +1,14 @@
 // variáveis
-let menu = false; // false = hidden, true = visibility
-let modo_cl_es = false; // false = modo escuro, true = modo claro
+var menu = false; // false = hidden, true = visibility // VAR
+let modo_cl_es = false; // false = modo escuro, true = modo claro // LET
 let menu_at = false; // false = fechado, true = aberto
 
 // função para abrir o menu
 function menu_button(){
     menu = !menu;
     var menu_botao = document.getElementById("menu");
-    const img_menu = document.getElementById("img_menu");
-    if(menu === true){
+    const img_menu = document.getElementById("img_menu"); // CONST
+    if(menu === true){ // IF - ELSE
         menu_botao.classList.remove("menu_es");
         menu_botao.classList.add("menu_ap");
         img_menu.src = 'assets/images/menu2-es.png';
@@ -22,7 +22,7 @@ function menu_button(){
 // trocar cores/imagens do site
 function modos(){
     modo_cl_es = !modo_cl_es;
-    const logo = document.getElementById("img_logo");
+    const logo = document.getElementById("img_logo"); // DOCUMENT.GetElementById
     const menu = document.getElementById("img_menu");
     const modo = document.getElementById("img_modo");
     const h3 = document.getElementById("h3_txt");
